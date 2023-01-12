@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AgenorSoft</title>
+    <link rel="stylesheet" href="pasantia.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="pasantia.html" class="logo">AgenorSoft</p>
+            <nav>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="#productos">Productos</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section id="agenor">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2>Agenor <span class="color-acento">Soft</span></h2>
+                <p>Somos una empresa de software con programadores Full Stack. Nos encargamos de que la inteligencia digital se adapte a tu empresa para agilizar procesos que aumenten la productividad y las ventas. Tambien desarrollamos apps moviles multiplataforma para que tus proyectos se acomoden a todos los celulares existentes</p>
+                <button>Saber Mas</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="nuestros-planes">
+        <div class="container">
+            <h2>Productos</h2>
+            <div class="planes">
+                <div class="carta">
+                    <h3>AgenorSoft Cloud</h3>
+                    <p>Emprendedor- EnterPrise-Full</p>
+                    
+                    <button>Saber Mas</button>
+                </div>
+                <div class="carta">
+                    <h3>AgenorSoft ERP</h3>
+                    <p>Emprendedor- EnterPrise-Full</p>
+                   
+                    <button>Saber Mas</button>
+                </div>
+                <div class="carta">
+                    <h3>AgenorSoft CR</h3>
+                   <p>Emprendedor- EnterPrise-Full</p>
+                    <button>Saber Mas</button>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section id="Sabermas">
+        <h2>Te interesa?</h2>
+        <button>Contactanos</button>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; AgenorSoft 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
+

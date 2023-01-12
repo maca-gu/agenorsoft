@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="Español">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>AgenorSoft</title>
+</head>  
+
+<body>
+    <header>
+        <figure class="logo">
+            <img src="img/logo agenor-01.png" height="50px" width="75px" alt="logo">
+        </figure>
+
+        <input type="checkbox"  id="check">
+        <label for="check" class="mostrar-menu"> 
+         &#8801
+        </label>
+        <nav class="menu">
+            <a href='#'>Inicio</a>
+            <a href='paginas/nosotros.html'>Nosotros</a>
+            <a href='#productos'>Productos</a>
+            <a href='#contacto'>Contacto</a>
+            <label for="check" class="esconder-menu">
+                &#215
+            </label>
+        </nav>
+    </header>
+
+
+<section id="banner">
+        <div class="contenido-banner">
+            <h2 class="title">AgenorSoft</h2>
+            <p> Nos encargamos de que la inteligencia digital<br>
+                se adapte a tu empresa para agilizar<br>
+                procesos que aumenten la productividad y las ventas.
+            </p>
+            <a href='./paginas/nosotros.html'class="boton-leermas">LEER MÁS</a>
+        </div>
+
+    </section>
+
+    
+    <div class="contenido-productos">
+        <h4 class="title1">PRODUCTOS</h4><br>
+        <p1> Años de experiencia nos permiten brindar soluciones a medida <br>
+            para empresas, marcas, pymes y emprendedores.</p1>
+    </div>
+      
+    <section id="productos">
+            
+                <div class="box">
+                    <br><h3>AgenorSoft CLOUD</h3><br>
+                        <p1>Paquetes desde<br>
+                            $1.875 por mes</p1>
+                    <a href="./paginas/productos.html" class="boton-consultar">Información</a>
+                </div>
+    
+                <div class="box">
+                    <br><h3>AgenorSoft ERP</h3><br>
+                        <p1>Paquetes desde <br>
+                            $1.125 por mes</p1>
+                    <a href="./paginas/productos.html" class="boton-consultar">Información</a>
+                </div>
+                <div class="box">
+                    <br><h3>AgenorSoft CRM</h3><br>
+                        <p1>Paquetes desde <br>
+                            $750 por mes</p1>
+                    <a href="./paginas/productos.html" class="boton-consultar">Información</a>
+                </div>   
+    
+    </section>
+
+   
+    
+
+    <section id="contacto">
+        <h5>NECESITAS AYUDA?</h5>
+        <H6>ESCRÍBENOS</H6>
+        
+        
+        <form action="#">
+            <div class="datos-form">
+                <div class="nombre">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre"
+                    placeholder="Nombre">
+                </div>
+
+                <div class="email">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email"
+                    placeholder="email">
+                </div>
+            </div>
+            <div class="mensaje">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30"
+                rows="10" placeholder="Mensaje"></textarea>
+            </div>
+            <div class="boton-formulario">
+                <a href="#" class="boton-form">Envíar Mensaje</a>
+            </div>
+        </form>
+    </section> 
+
+    <footer>
+        <p>&copy; 2020 AgenorSoft</p>
+    </footer>
+</body>
+</html>
+
+
